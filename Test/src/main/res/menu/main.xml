@@ -1,0 +1,58 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.activereplay.test.MainActivity" >
+
+    <item android:id="@+id/action_ble_connect"
+        android:title="@string/action_ble_connect"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_ble_connect_paired"
+          android:title="@string/action_ble_connect2"
+          android:orderInCategory="100"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/action_ble_disconnect"
+          android:title="@string/action_ble_disconnect"
+          android:orderInCategory="100"
+          app:showAsAction="never" />
+
+
+
+    <item android:id="@+id/action_ble_read_battery"
+          android:title="BLE Read Battery"
+          android:orderInCategory="100"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/action_ble_read_files"
+          android:title="BLE Read Files"
+          android:orderInCategory="100"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/action_ble_on_edr"
+          android:title="BLE Turn On EDR"
+          android:orderInCategory="100"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/action_ble_off_edr"
+          android:title="BLE Turn Off EDR"
+          android:orderInCategory="100"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/action_bredr_connect"
+          android:title="@string/action_bredr_connect"
+          android:orderInCategory="200"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/action_bredr_disconnect"
+          android:title="@string/action_bredr_disconnect"
+          android:orderInCategory="200"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/action_bt_reset"
+          android:title="Reset Bluetooth"
+          android:orderInCategory="200"
+          app:showAsAction="never" />
+
+</menu>

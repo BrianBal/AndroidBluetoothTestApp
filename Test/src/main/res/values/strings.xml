@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Test</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_ble_connect">Connect BLE</string>
+    <string name="action_ble_connect2">Connect BLE Paired</string>
+    <string name="action_ble_read_battery">Read Battery</string>
+    <string name="action_ble_read_files">Read Files</string>
+    <string name="action_ble_read_firmware">Read Firmware</string>
+    <string name="action_ble_disconnect">Disconnect BLE</string>
+    <string name="action_bredr_connect">BR/EDR Connect</string>
+    <string name="action_bredr_disconnect">BR/EDR Disconnect</string>
+
+</resources>
